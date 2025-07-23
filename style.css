@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f7fafc;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+.balance {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.inc-exp-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.money.plus {
+  color: green;
+}
+
+.money.minus {
+  color: red;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.list li {
+  background: #f4f4f4;
+  padding: 10px;
+  border-right: 5px solid;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list li.plus {
+  border-color: green;
+}
+
+.list li.minus {
+  border-color: red;
+}
+
+.form-control {
+  margin: 10px 0;
+}
+
+.form-control input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.btn {
+  width: 100%;
+  background: #1a202c;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
